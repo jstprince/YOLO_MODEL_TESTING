@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Project output and downloaded model assets
+**/runs/
+**/datasets/
+**/*.pt
+**/*.weights
+**/*.onnx
+**/*.engine
+**/*.bin
+
+# Generated media
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.bmp
+**/*.gif
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
